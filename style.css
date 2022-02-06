@@ -1,0 +1,49 @@
+
+ * {
+ 	font-family: "Roboto", sans-serif;
+ }
+
+ html {
+    scroll-behavior: smooth;
+ }
+ h1,h2 {
+ 	font-family: "monserrat", sans-serif;
+ }
+ img {
+ 	height: 250px;
+ 	width: 200px;
+    border-radius: 6px;
+ }
+ 
+ #landing {
+    height: 80vh;
+    /*landing orientation horizontally and vertically*/
+    display: flex;
+    flex-direction: column;
+    align-items: center; justify-content: center;
+ }
+
+ #gallery {
+    height: 120vh;
+    /*center the contents of gallery horizontally and vertically*/
+    display: flex; flex-direction: column; 
+    align-items: center; justify-content: center;border-radius: 6px;
+ }
+
+ ul{
+    list-style: none;
+    padding: 0;
+ }
+ h2{
+    color: #007bff;
+ }
+
+ /* the boxes for gallery*/
+ .tools{
+    height: 200px;
+    border: 5px solid #f2f2f2;
+    padding: 25px; 
+    margin: 20px; 
+    width: 75%;
+    border-radius: 6px;
+ }
